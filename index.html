@@ -1,19 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>My Resume</title>
+    <title>Erik's Resume</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-  <link rel="stylesheet" href="css/index.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
+  <body>
+    <div class="container">
+      <!--Nav-->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb breadcrumb--flex">
+          <li class="breadcrumb-item active" aria-current="page"><a href="#">Resume</a></li>
+          <li class="breadcrumb-item"><a href="#">About</a></li>
+          <li class="breadcrumb-item"><a href="https://erik-alonso.netlify.com/">Portfolio</a></li>
+          <li class="breadcrumb-item"><a href="https://erik-alonso.netlify.com/contact.html">Contact</a></li>
+        </ol>
+      </nav>
 
-<body>
-  <h1>My Resume</h1>
-</body>
+      <!--Jumbotron-->
+      <div class="jumbotron">
+        <img src="erik.jpg" alt="Erik" height="200" width="200" />
+        <h3 class="display-4">Erik Alonso - Full Stack Developer</h3>
+        <p class="lead">This resume was built using LESS, HTML, and CSS!</p>
+        <hr class="my-4" />
+        <p>When CSS and lifting unite.. follow on <a href="https://twitter.com/erikalon12?lang=en">Twitter</a> to see what happens!</p>
+        <a class="btn btn-secondary btn-lg" href="https://www.instagram.com/spirit_fitness_vegan/" role="button">Instagram</a>
+      </div>
+
+      <!--Main content-->
+      <div class="main row">
+        <!--Box-->
+        <div class="box col-sm">
+          <h4>Here's the scoop...</h4>
+          <p>First you hit em' with the backend then you knock it out of the park with the front end! Deploying your apps and microservices help if you want to get out of local host and into the money spot. Maintain the pace with good commenting and DRY coding. Follow your dreams!</p>
+        </div>
+
+        <!--List-->
+        <div class="col-sm">
+          <h4>Stuff I'm good at:</h4>
+          <ul class="list-group">
+            <li class="list-group-item">Bootstrap</li>
+            <li class="list-group-item">reactstrap</li>
+            <li class="list-group-item">Semantic-UI</li>
+            <li class="list-group-item">LESS</li>
+            <li class="list-group-item">CSS</li>
+          </ul>
+        </div>
+      </div>
+
+      <!--Table-->
+      <div class="tabl">
+        <h4>Work History</h4>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Company</th>
+              <th scope="col">Title</th>
+              <th scope="col">Tech Used</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Lambda</td>
+              <td>Software Engineer</td>
+              <td>React</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--Copyright-->
+      <div class="copyright">
+        <h6>Copyright Responsive-Galore 2019 by Erik Alonso</h6>
+      </div>
+    </div>
+  </body>
+
+  <!--Bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
